@@ -13,8 +13,8 @@
                 t += s;
                 d = s > 100 ? i : d;
             }
-            Console.WriteLine($"T({n}) = {t}");
-            Console.WriteLine(d > 0 ? $"S > 100 на {d}-й день" : "S <= 100 всегда");
+            Console.Write($"T({n}) = {t}");
+            Console.Write(d > 0 ? $"S > 100 на {d}-й день" : "S <= 100 всегда");
         }
     }
 }
